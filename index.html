@@ -146,7 +146,7 @@ iframe{
 <div class="stars"></div>
 
 <header>
-  <h1>Para ARII (mi tilina, mi chakalita ❤️
+  <h1>Para ARII (mi tilina, mi chakalita ❤️)
 )</h1>
   <p>Desde que llegaste a mi vida, todo se siente más bonito, más suave y más real, este detalle especial es para la persona mas especial. <3</p>
   <a class="btn" href="#carta">Leer mi cartita 💌</a>
@@ -330,16 +330,112 @@ No prometo ser perfecto, pero a tu lado quiero ser el indicado para ti, en ello 
     <p>Wapa como ninguna :b</p>
   </div>
 
-  <!-- VIDEOS -->
-  <div class="card">
-    <video src="ARIVIDEO.mp4" controls></video>
-    <p> tilina te quieroo</p>
-  </div>
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Videos en Cartas</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%);
+            min-height: 100vh;
+            padding: 20px;
+        }
+        
+        .cards-container {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+            gap: 25px;
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+        
+        .card {
+            background: white;
+            border-radius: 15px;
+            overflow: hidden;
+            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.15);
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+        }
+        
+        .card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 15px 35px rgba(0, 0, 0, 0.2);
+        }
+        
+        .card video {
+            width: 100%;
+            height: 200px;
+            object-fit: cover;
+            display: block;
+            border-bottom: 1px solid #eee;
+        }
+        
+        .card p {
+            padding: 18px;
+            margin: 0;
+            font-size: 16px;
+            color: #333;
+            text-align: center;
+            background-color: #f9f9f9;
+            font-weight: 500;
+        }
+        
+        /* Estilos para el reproductor de video */
+        video::-webkit-media-controls-panel {
+            background-color: rgba(0, 0, 0, 0.7);
+        }
+        
+        /* Responsive para móviles */
+        @media (max-width: 768px) {
+            .cards-container {
+                grid-template-columns: 1fr;
+                max-width: 500px;
+            }
+            
+            .card video {
+                height: 180px;
+            }
+        }
+        
+        /* Estilo opcional para títulos */
+        h1 {
+            text-align: center;
+            color: #333;
+            margin-bottom: 30px;
+            font-size: 2.2rem;
+            text-shadow: 1px 1px 3px rgba(0,0,0,0.1);
+        }
+    </style>
+</head>
+<body>
+    <!-- Título opcional -->
+    <h1>Mis Videos</h1>
+    
+    <!-- Contenedor de cartas -->
+    <div class="cards-container">
+        <!-- VIDEO 1 -->
+        <div class="card">
+            <video src="ARIVIDEO.mp4" controls></video>
+            <p>tilina te quieroo</p>
+        </div>
 
-  <div class="card">
-    <video src="ARIVIDEO2.mp4" controls></video>
-    <p>Mi chakalita de frifai te amo</p>
-  </div>
+        <!-- VIDEO 2 -->
+        <div class="card">
+            <video src="ARIVIDEO2.mp4" controls></video>
+            <p>Mi chakalita de frifai te amo</p>
+        </div>
+        
+        <!-- Puedes añadir más cartas aquí -->
+    </div>
 
   <!-- CAPTURAS -->
   <div class="card">
