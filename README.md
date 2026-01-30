@@ -1,0 +1,269 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Para ARII ❤️
+</title>
+
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;800&display=swap" rel="stylesheet">
+
+<style>
+:root{
+  --azul:#0b4fa3;
+  --celeste:#6ecbff;
+}
+
+*{box-sizing:border-box;}
+
+body{
+  margin:0;
+  font-family:'Poppins',sans-serif;
+  background:linear-gradient(135deg,#0b4fa3,#6ecbff,#ffffff);
+  color:#033;
+  overflow-x:hidden;
+}
+
+/* ESTRELLAS */
+.stars span{
+  position:fixed;
+  top:-10px;
+  color:white;
+  font-size:12px;
+  animation:fall 10s linear infinite;
+  opacity:.8;
+}
+@keyframes fall{
+  to{transform:translateY(110vh) translateX(30px); opacity:0;}
+}
+
+/* HEADER */
+header{
+  text-align:center;
+  padding:90px 20px 70px;
+  color:white;
+  position:relative;
+}
+header h1{font-size:3.2rem;margin:0;}
+header p{font-size:1.3rem;max-width:720px;margin:20px auto;}
+
+.bubbles span{
+  position:absolute;
+  bottom:-50px;
+  background:rgba(255,255,255,.35);
+  border-radius:50%;
+  animation:float 12s infinite ease-in;
+}
+@keyframes float{
+  to{transform:translateY(-120vh) scale(1.4);opacity:0;}
+}
+
+/* SECCIONES */
+section{
+  max-width:1100px;
+  margin:60px auto;
+  padding:35px;
+  background:rgba(255,255,255,.93);
+  border-radius:30px;
+  box-shadow:0 20px 45px rgba(0,0,0,.18);
+}
+
+h2{text-align:center;color:var(--azul);margin-bottom:25px;}
+
+.cards{
+  display:grid;
+  grid-template-columns:repeat(auto-fit,minmax(220px,1fr));
+  gap:25px;
+}
+
+.card{
+  background:linear-gradient(135deg,#fff,#eaf6ff);
+  border-radius:22px;
+  padding:20px;
+  text-align:center;
+  transition:.4s;
+}
+.card:hover{
+  transform:translateY(-10px) scale(1.04);
+  box-shadow:0 18px 35px rgba(0,0,0,.25);
+}
+
+.card img{
+  width:100%;
+  border-radius:18px;
+  margin-top:10px;
+}
+
+iframe{
+  width:100%;
+  height:320px;
+  border-radius:18px;
+  border:none;
+}
+
+.playlist a{
+  display:block;
+  margin:12px 0;
+  padding:14px;
+  border-radius:14px;
+  background:linear-gradient(90deg,var(--celeste),var(--azul));
+  color:white;
+  text-decoration:none;
+  font-weight:600;
+}
+
+.playlist a:hover{
+  transform:scale(1.04);
+}
+
+.love-text{
+  font-size:1.2rem;
+  line-height:1.8;
+  text-align:center;
+}
+
+/* BOTÓN */
+.btn{
+  display:inline-block;
+  margin-top:20px;
+  padding:14px 30px;
+  background:linear-gradient(90deg,#ff7eb3,#65c7f7);
+  color:white;
+  border-radius:30px;
+  text-decoration:none;
+  font-weight:700;
+}
+
+@media(max-width:768px){
+  header h1{font-size:2.2rem;}
+  iframe{height:220px;}
+}
+</style>
+</head>
+
+<body>
+
+<div class="stars"></div>
+
+<header>
+  <h1>Para ARII (mi tilina, mi chakalita ❤️
+)</h1>
+  <p>Desde que llegaste a mi vida, todo se siente más bonito, más suave y más real, este detalle especial es para la persona mas especial. <3</p>
+  <a class="btn" href="#carta">Leer mi cartita 💌</a>
+  <div class="bubbles"></div>
+</header>
+
+<section>
+<h2>Lo que quiero hacer contigo hoy y siempre ✨</h2>
+<div class="cards">
+  <div class="card">💐 Llenarte de detalles (tales como este que te hago con todo mi esfuerzo, porque en verdad valoro cada sonrisa tuya)</div>
+  <div class="card">🍿 Ver todo tipo de peliculas abrazados, solo tu y yo</div>
+  <div class="card">🎮 Jugar Minecraft hasta tarde, o roblox, riendo o conversando, pero todo contigo</div>
+  <div class="card">😂 Reírnos de todo, hasta de una diminuta mosca jsjdaksjd</div>
+  <div class="card"> Bailar juntos y cantar (asi bajo la lluvia o la hermosa luz de la luna)</div>
+  <div class="card"> Pasear agarrados de la mano porque, si.. no se cruzar la calle :,v</div>
+    <div class="card"> Tambien quiero acompañarte en tus noches mas oscuras, en aquellas noches donde tu deseas la soledad, la tristeza, pero yo estare ahi para sacarte esa sonrisa hermosa que tanto me encanta.. =3</div>
+      <div class="card"> POSDATA: IMPORTANTE LEER bueno, ari, esta es mi primer locura, ¿puedes creerlo? 3 dias programando, pero lo valdra, ¿por que? porque cuando estes troste, leeras esto y sabras que estoy contigo <33 </div>
+</div>
+</section>
+
+<section id="carta">
+<h2>Mi cartita para ti 💌</h2>
+<p class="love-text">
+Ari :3… me gustas de una forma bonita y real.  
+No prometo ser perfecto, pero a tu lado quiero ser el indicado para ti, en ello tambien esta el ser sincero con lo que siento por ti, tambien prometo ahogarte en mis detalles....❤️
+</p>
+</section>
+
+<section>
+<h2>Nuestras pelis pendientes por ver 🎬</h2>
+<p>Por supuesto, si deseas verlas conmigo. <3</p>
+<div class="cards">
+  <div class="card">
+    <img src="https://m.media-amazon.com/images/M/MV5BMjdkMmQ4OWUtZmNmNC00ZGQ2LWFkN2MtYmJiZDU5MzhmOTY0XkEyXkFqcGc@.V1.jpg">
+    <p>Comedia para kgarnos de risa</p>
+  </div>
+  <div class="card">
+    <img src="https://m.media-amazon.com/images/S/pv-target-images/e557ffb5826867bda7b8ea99298eaca8280c36152f5622cb5c3d6551e63c1469.jpg">
+    <p>Tu peli favorita ❤️</p>
+    </div>
+     <div class="card">
+    <img src="https://images.justwatch.com/poster/178525253/s718/mi-vecino-totoro.jpg">
+    <p>Una pelicula hermosa, para la chica mas hermosaa</p>
+  </div>
+    <div class="card">
+    <img src="https://multianime.com.mx/wp-content/uploads/2025/03/Heidi-la-nina-de-los-Alpes-1974-llega-a-EE.UU_.-en-espanol-a-traves-de-Amazon-Prime-Video.jpg">
+    <p>aqui otra peli mas por si deseas :3</p>
+  </div>
+</div>
+</section>
+
+<section>
+<h2>Sacha Uzumaki 🎥</H2> 
+<P>mi streamer favorito, espero ver un video de el junto a ti y reir juntos.</P>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/2eP0ziBQ6t0?si=6hCajxtK5L9QmEcS" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+</section>
+
+<section>
+<h2>las Canciones que me recuerdan a tii 💌</h2>
+<iframe src="https://www.youtube.com/embed/Zd1Flawc1-I"></iframe>
+<iframe src="https://www.youtube.com/embed/butH0ZpVxZQ"></iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/tJA_mxEIJ2E?si=cbdvBAYsqyJzCg82" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/znHE3ugGhnk?si=Ngiy3mfhxGvemE79" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+</section>
+
+<section>
+<h2>tus canciones favoritas me quitan las palabras de la boca 🎧</h2>
+<div class="playlist">
+<a href="https://www.youtube.com/watch?v=l_ZyDlTfndE" target="_blank">Amárrame y curameeee</a>
+<a href="https://www.youtube.com/watch?v=obLSGG-oEyw" target="_blank">Lover Girl vibes, a pesar de que sea un machazo, me siento asi contigo</a>
+<a href="https://www.youtube.com/watch?v=kul1MbGMWMk" target="_blank">Solo quiéreme, mienteme, pero hazme sentir especial~</a>
+<a href="https://www.youtube.com/watch?v=mJfkCSTNLhY" target="_blank">Ojitos lindos como te quiero</a>
+<a href="https://www.youtube.com/watch?v=wgJKOn7TzYk" target="_blank">Junior H habla por mi :0</a>
+<a href="https://www.youtube.com/watch?v=8aDmnOgBXZA" target="_blank">Con gallos pero la canto solo para ti</a>
+<a href="https://www.youtube.com/watch?v=ZyowJ5GB2Dk" target="_blank">Eres maravillosa</a>
+</div>
+</section>
+
+<section>
+<h2>las fotos mas preciosass del mundo ❤️
+</h2>
+<div class="cards">
+<img src="ARI.jpeg">
+<img src="ARIIII.png">
+<img src="ARIDEESPALDAS.png">
+<img src="AMOTUSOJOS.jpeg">
+<img src="AMOTUSPESTAÑAS.jpeg">
+<img src="BONITA.jpeg">
+<img src="CUTE.jpeg">
+<img src="LOSAMO.jpeg">
+<img src="PRECIOSA.jpeg">
+<img src="WAPA.jpeg">
+</div>
+</section>
+
+<script>
+const bubbles=document.querySelector('.bubbles');
+for(let i=0;i<35;i++){
+  const b=document.createElement('span');
+  const s=Math.random()*40+10;
+  b.style.width=s+'px';
+  b.style.height=s+'px';
+  b.style.left=Math.random()*100+'%';
+  b.style.animationDuration=(Math.random()*8+6)+'s';
+  bubbles.appendChild(b);
+}
+
+const stars=document.querySelector('.stars');
+for(let i=0;i<60;i++){
+  const s=document.createElement('span');
+  s.innerHTML='✦';
+  s.style.left=Math.random()*100+'%';
+  s.style.animationDuration=(Math.random()*6+6)+'s';
+  stars.appendChild(s);
+}
+</script>
+
+</body>
+</html>
+esta bien mi codigo?, es que lo probe y esta todo ok, pero no aparecen los videos de yt aparecen en blanco, que hago, por cierto, NO CAMBIES NADA, ESE ES EL HTML FINAL
