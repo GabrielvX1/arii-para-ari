@@ -88,7 +88,8 @@ h2{text-align:center;color:var(--azul);margin-bottom:25px;}
   box-shadow:0 18px 35px rgba(0,0,0,.25);
 }
 
-.card img{
+.card img,
+.card video{
   width:100%;
   border-radius:18px;
   margin-top:10px;
@@ -146,7 +147,7 @@ iframe{
 <div class="stars"></div>
 
 <header>
-  <h1>Para ARII (mi tilina, mi chakalita ❤️
+  <h1>Para ARII (mi tilina, mi chakalita ❤️)
 )</h1>
   <p>Desde que llegaste a mi vida, todo se siente más bonito, más suave y más real, este detalle especial es para la persona mas especial. <3</p>
   <a class="btn" href="#carta">Leer mi cartita 💌</a>
@@ -171,7 +172,7 @@ iframe{
 <h2>Mi cartita para ti 💌</h2>
 <p class="love-text">
 Ari :3… me gustas de una forma bonita y real.  
-No prometo ser perfecto, pero a tu lado quiero ser el indicado para ti, en ello tambien esta el ser sincero con lo que siento por ti, tambien prometo ahogarte en mis detalles....❤️
+No prometo ser perfecto, pero a tu lado quiero ser el indicado para ti, en ello tambien esta el ser sincero con lo que siento por ti, tambien prometo ahogarte en mis detalles y siempre estar a tu lado, por siempre y para siempre, te quiero, espero que este detalle, acompañe siempre tu lindo corazon....❤️
 </p>
 </section>
 
@@ -226,19 +227,143 @@ No prometo ser perfecto, pero a tu lado quiero ser el indicado para ti, en ello 
 </section>
 
 <section>
-<h2>las fotos mas preciosass del mundo ❤️
-</h2>
+<h2>las fotos mas preciosass del mundo ❤️</h2>
+
 <div class="cards">
-<img src="ARI.jpeg">
-<img src="ARIIII.png">
-<img src="ARIDEESPALDAS.png">
-<img src="AMOTUSOJOS.jpeg">
-<img src="AMOTUSPESTAÑAS.jpeg">
-<img src="BONITA.jpeg">
-<img src="CUTE.jpeg">
-<img src="LOSAMO.jpeg">
-<img src="PRECIOSA.jpeg">
-<img src="WAPA.jpeg">
+
+  <div class="card">
+    <img src="ARI.jpeg">
+    <p>Simplemente tú, y eso ya lo es todo ❤️</p>
+  </div>
+
+  <div class="card">
+    <img src="ARIIII.png">
+    <p>Así de hermosa te veo siempre</p>
+  </div>
+
+  <div class="card">
+    <img src="ARIDEESPALDAS.png">
+    <p>Incluso de espaldas sigues siendo perfecta, adornas el entorno en el que estas, lo haces mas calido :3</p>
+  </div>
+
+  <div class="card">
+    <img src="AMOTUDELINEADO.jpeg">
+    <p>Ese delineado me mataaa</p>
+  </div>
+
+  <div class="card">
+    <img src="AMOTUSOJOS.jpeg">
+    <p>Tus ojitos son mi debilidad, mi kriptonita..</p>
+  </div>
+
+  <div class="card">
+    <img src="AMOTUSPESTAÑAS.jpeg">
+    <p>Hasta tus pestañas son lindas</p>
+  </div>
+
+  <div class="card">
+    <img src="BONITA.jpeg">
+    <p>Bonita se queda corto, LITERALMENTE</p>
+  </div>
+
+  <div class="card">
+    <img src="BONITOSSSS.jpeg">
+    <p>Ojos demasiados bonitos para este mundo</p>
+  </div>
+
+  <div class="card">
+    <img src="CUTE.jpeg">
+    <p>Cuando te pones en esa pose me derrites</p>
+  </div>
+
+  <div class="card">
+    <img src="DEDITO.jpeg">
+    <p>Un dedo pequeño que amo</p>
+  </div>
+
+  <div class="card">
+    <img src="EYESS.jpeg">
+    <p>Esos ojos no son normales, pues, reflejan las estrellas</p>
+  </div>
+
+  <div class="card">
+    <img src="LINDA.jpeg">
+    <p>Linda por donde la mire <3 </p>
+  </div>
+
+  <div class="card">
+    <img src="LOSAMO.jpeg">
+    <p>Los ojos que tienes los amo porque son parte de ti</p>
+  </div>
+
+  <div class="card">
+    <img src="OJITOS.jpeg">
+    <p>Ojitos que me desarman como a un lego</p>
+  </div>
+
+  <div class="card">
+    <img src="OJITOSLINDOS.jpeg">
+    <p>Demasiado lindos para ser reales, parecen brillar como un cuento de fantasia</p>
+  </div>
+
+  <div class="card">
+    <img src="OJITOSTIERNOS.jpeg">
+    <p>Ternura pura, es indescriptible lo que hacen tus ojos con mi cabeza</p>
+  </div>
+
+  <div class="card">
+    <img src="PRECIOSA.jpeg">
+    <p>Preciosa siempre, todos los dias, todo el tiempooo</p>
+  </div>
+
+  <div class="card">
+    <img src="THEEYES.jpeg">
+    <p>Otra prueba de que tus ojos son mágicos y es una de las cosas que me encantan de ti</p>
+  </div>
+
+  <div class="card">
+    <img src="WAOS.jpeg">
+    <p>Waos… sin palabras</p>
+  </div>
+
+  <div class="card">
+    <img src="WAPA.jpeg">
+    <p>Wapa como ninguna :b</p>
+  </div>
+
+</div>
+</section>
+
+<!-- VIDEOS Y CAPTURAS -->
+<section>
+<h2>Nuestros momentos especiales 🎥</h2>
+<div class="cards">
+
+  <div class="card">
+    <video src="ARIVIDEO.mp4" controls></video>
+    <p>tilina te quieroo</p>
+  </div>
+
+  <div class="card">
+    <video src="ARIVIDEO2.mp4" controls></video>
+    <p>Mi chakalita de frifai te amo</p>
+  </div>
+
+  <div class="card">
+    <img src="Captura de pantalla 2026-01-16 181754.png">
+    <p>aqui escapamos de los zombies y a decir verdad me rei mucho esa tarde</p>
+  </div>
+
+  <div class="card">
+    <img src="Captura de pantalla 2026-01-16 182700.png">
+    <p>MIRAA TODA BONITA CON TUS FLORES <<<333 </p>
+  </div>
+
+  <div class="card">
+    <img src="Captura de pantalla 2026-01-29 092620.png">
+    <p>Otro pedacito de nosotros, en tu juego favorito</p>
+  </div>
+
 </div>
 </section>
 
@@ -266,4 +391,3 @@ for(let i=0;i<60;i++){
 
 </body>
 </html>
-esta bien mi codigo?, es que lo probe y esta todo ok, pero no aparecen los videos de yt aparecen en blanco, que hago, por cierto, NO CAMBIES NADA, ESE ES EL HTML FINAL
